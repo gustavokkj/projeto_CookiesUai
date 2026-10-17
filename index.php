@@ -1,10 +1,11 @@
 <?php require_once __DIR__ . '/includes/header.php'; ?>
 <!-- Header-->
-        <header class='py-1' style='background:#ffddba'>
-            <div class='container px-4 px-lg-5 my-1'>
-                <img src="<?= app_url('assets/images/brand/cookie.png') ?>" alt="Banner Cookies Uai" class="w-100 img-fluid rounded" style="max-height: 500px; transform: scale(0.85); display: block; margin: 0 auto;">
-                <div class='text-center text-white'>
-                    <!--<h1 class='display-4 fw-bolder' style='color:#d89150'>Cookies Uai</h1> <p class='lead fw-normal mb-0' style='color:#d89150'>Aqui cada receita é uma viagem de sabor!</p> width: 10%; object-fit: cover;'-->
+        <header class="py-4" style="background:#ffddba; color:#412714">
+            <div class="container px-4 px-lg-5 d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+                <img src="<?= app_url('assets/images/brand/cookie-illustration.png') ?>" alt="Cookie com gotas de chocolate em desenho" width="240" height="240" class="img-fluid" style="object-fit:contain">
+                <div class="text-center text-md-start">
+                    <h1 class="display-3 fw-bold">Web Store</h1>
+                    <p class="lead mb-0">Uma pequena loja de cookies.</p>
                 </div>
             </div>
         </header>
